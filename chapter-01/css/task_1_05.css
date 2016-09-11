@@ -1,0 +1,236 @@
+/*************************************************************
+
+GENERAL
+**************************************************************/
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  font-family: "黑体";
+  font-size: 14px;
+  margin: 0px;
+  border: 0px;
+  background: #DEDEDE;
+  min-width: 750px;
+}
+
+
+
+/*************************************************************
+
+HEADER
+**************************************************************/
+
+.header {
+    height: 70px;
+    width: 100%;
+    background-color: #333333;
+    display: table;
+    vertical-align: middle;
+}
+
+.header span {
+    display: table-cell;
+    height: 70px;
+    vertical-align: middle;
+}
+
+.header span img {
+    margin-left: 35px;
+    cursor: pointer;
+}
+
+nav ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    line-height: 70px;
+    float: left;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    color: #999;
+}
+
+
+/*************************************************************
+
+MAIN
+**************************************************************/
+
+
+article{
+  margin-top: 40px;
+  background-color: #FFF;
+  margin-left: 40px;
+  margin-right: 450px;
+  padding: 20px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 2px #848484;
+}
+
+.color_gray{
+  color: gray;
+  padding: 10px;
+}
+
+.text_indent{
+  text-indent: 2em;
+}
+
+.no_list{
+  list-style: none;
+}
+
+article > h2 {
+    margin-bottom: 20px;
+}
+
+figure {
+    width: 140px;
+    height: 120px;
+    border: 1px solid #aaa;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 20px;
+}
+
+figcaption {
+    padding: 5px;
+}
+
+ol > li {
+    font-weight: bold;
+    margin: 0 0 0 50px;
+}
+
+.tab {
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+
+thead {
+    color: #fff;
+    background-color: #333;
+}
+
+tfoot {
+    background-color: #ccc;
+}
+
+
+
+/*************************************************************
+
+SIDE BAR
+**************************************************************/
+
+aside{
+  background: #fff;
+  float: right;
+  width: 350px;
+  margin-top: 40px;
+  margin-right: 20px;
+  padding: 20px;
+  box-shadow: 2px 2px 2px #848484;
+}
+
+.aside{
+  padding-left: 10px;
+  border-left: 3px #ccc solid;
+}
+
+
+form{
+  width: 100%;
+  min-width: 300px;
+}
+form>div{
+  margin: 10px 0;
+}
+
+.bot{
+  vertical-align: bottom;
+}
+
+.input_message {
+    width: 30%;
+    display: inline-block;
+    text-align: right;
+    margin-bottom: 0;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.demand{
+  font-size: 13px;
+  color: gray;
+  margin-left: 34%;
+  margin-top: 10px;
+}
+
+textarea{
+  margin-top: 10px;
+  width: 50%;
+  height: 100px;
+  margin-left: -7px;
+}
+
+input[type='submit']{
+  width: 100%;
+  height: 40px;
+  background: #3355D0;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 8px;
+  border:1px solid #3355D0;
+  font-weight: 800;
+}
+
+input[type='submit']:hover{
+    background: #0063dc;
+
+}
+
+
+/*************************************************************
+
+FOOTER
+**************************************************************/
+
+footer {
+    height: 70px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+}
+
+.name{
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
